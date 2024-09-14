@@ -1,0 +1,35 @@
+
+@font-face {
+    font-family: typoGraphica;
+    src: url("../fonts/TypoGraphica_demo.otf");
+}
+
+
+.home__title{
+    padding: 5%;
+    font-family: typoGraphica;
+    color: rgb(255, 255, 255);
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+
+.home__title h1 {
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size:7em;
+}
+
+.home__title h1:nth-child(2) {
+    text-align: right;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size:7em;
+}
+
+
+
+
+

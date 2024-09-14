@@ -1,0 +1,122 @@
+
+
+@font-face {
+    font-family: typoGraphica;
+    src: url("../fonts/TypoGraphica_demo.otf");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about__container{
+
+    display: flex;
+    flex-flow: row wrap;
+
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+
+
+.about__description{
+    width: 50%;
+    text-align: center;
+    /* background-color: red; */
+    
+}
+
+.about__description h1{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size:6em;
+    text-align: right;
+
+    color: rgb(75, 10, 10);
+
+    font-family: typoGraphica;
+
+}
+
+.about__description p{
+    padding: 5%;
+    letter-spacing: 3px;
+    font-size:1.8em;
+
+    color: rgb(41, 5, 5);
+
+}
+
+
+.about__img{
+    width: 50%;
+    text-align: center;
+    /* background-color: rgb(94, 255, 0); */
+}
+
+
+.about__triangle{
+
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+
+    height: 500px;
+
+    background-color: rgb(102, 26, 26);
+
+    position: absolute;
+}
+
+.img_camera1-top{
+    position:static;
+    margin: 0 auto;
+    left:10px;
+    top:100px;
+    width: 350px;
+
+}
+
+/* 
+
+div#myDIV {
+    position:static;
+    width:100px;
+    height:100px;
+    background:red;
+    left:10px;
+    top:100px;
+  } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
